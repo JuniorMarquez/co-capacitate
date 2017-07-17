@@ -76,11 +76,17 @@
     
     $scope.myInterval = 5000;
     var slides = $scope.slides = [];
+
     $scope.addSlide = function() {
       slides.push({
-        image: 'img/c' + slides.length + '.jpg'
+
+        image: 'img/c' + slides.length + '.jpg',
+         background: 'url('+'img/c' + slides.length + '.jpg'+')'
+
         // text: ['Carousel text #0','Carousel text #1','Carousel text #2','Carousel text #3'][slides.length % 4]
       });
+     
+
     };
     for (var i=0; i<3; i++) {
       $scope.addSlide();

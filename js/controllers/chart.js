@@ -8,6 +8,14 @@ app
 //       if (typeof MyService.data.email==="undefined"){
 //   $state.go('access.signin');
 // }
+$scope.visor = function(pie) {
+    var pie = document.getElementById(pie).innerHTML;
+   if (pie){
+    return (false);
+   }
+};
+
+
 $scope.congiguracion=[];
 $scope.vectorCapacitaciones=[];
 $scope.vectorCursos1=[];

@@ -41,10 +41,21 @@
     "components" : {
       "COMPONENTS" : "Components",
       "sol" : {
-        "NUEVA" : "Nueva Solicitud",
-        "SOLICITUDES" : "Solicitudes",
-        "LISTADO" : "Listado",
-        "TODAS" : "Todas"
+        "EQUIPO" : "Equipo Directivo",
+        "EMPRESA" : "Empresa",
+        "FACILITADORES" : "Listado",
+        "ALIANZAS" : "Alianzas Estratégicas y Convenios",
+        "FUNDACION":"Fundaciión Capacítate"
+      },
+      "cap" : {
+        "CURSOS" : "Cursos",
+        "CONGRESOS" : "Congresos",
+        "DIPLOMADOS" : "Dimploados",
+        "FOROS" : "Foros",
+        "JORNADAS":"Jornadas",
+        "TALLERES":"Talleres",
+        "SEMINARIOS":"Seminarios",
+        "PROGRAMA":"Programa INCES"
       },
       "ui_kits" : {
         "UI_KITS" : "UI Kits",

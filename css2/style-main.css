@@ -210,7 +210,7 @@ h6,
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   line-height: 1.42857143;
-  color: #6C65F0;
+  color: #120D6D;
 }
 h3 small,
 h4 small,
@@ -2287,8 +2287,22 @@ form .error {
   position: relative;
 }
 .work-gallery .gallery-bottom-part {
-  background-color: #271DED;
+  background-color: #312E6D;
   padding: 10px 10px 16px;
+}
+/*.work-gallery :hover {
+   background-color: #0C00F7;
+
+}*/
+ 
+  
+.work-gallery .gallery-bottom-part a:hover {
+
+  color: #fff;
+
+  -webkit-transition: all 100ms ease-in-out 0s;
+  -o-transition: all 100ms ease-in-out 0s;
+  transition: all 100ms ease-in-out 0s;
 }
 .work-gallery .gallery-thumb .gallery-overlay {
   height: 100%;
@@ -2327,6 +2341,7 @@ form .error {
   width: 100%;
 }
 .work-gallery:hover .gallery-thumb .gallery-contect {
+   background-color: rgba(60, 76, 149, 0.5);
   opacity: 1;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -2344,6 +2359,7 @@ form .error {
 }
 .work-gallery .gallery-thumb .styled-icons a:hover i {
   color: #fff;
+
 }
 .work-gallery .gallery-thumb .styled-icons a:hover {
   color: #fff;
@@ -2364,7 +2380,16 @@ form .error {
   transition: all 300ms ease-in-out 0s;
 }
 .work-gallery:hover .gallery-bottom-part .title {
-  color: #120D6D;
+  color: #FFFFFF;
+}
+.tittleSlide {
+  color: #FFFFFF;
+    font-weight: 1;
+  background-color: rgba(255, 255, 255, 0.29);
+}
+.textSlide {
+  color: #FFFFFF;
+  background-color: rgba(49, 46, 109, 0.72);
 }
 .work-gallery:hover .gallery-bottom-part .sub-title {
   color: #fff;
@@ -4812,7 +4837,7 @@ blockquote p {
   border: 1px solid #777777;
 }
 .styled-icons.icon-bordered a:hover {
-  background-color: #777777;
+  background-color: #271DED;
   color: #fff;
 }
 .styled-icons.icon-rounded a {
@@ -5682,7 +5707,7 @@ blockquote p {
   border: 2px solid #d5d5d5;
 }
 .styled-icons.icon-dark a {
-  background-color: #333333;
+  background-color: #312E6D;
   color: #eeeeee;
   display: block;
   font-size: 18px;
@@ -5691,7 +5716,7 @@ blockquote p {
   width: 36px;
 }
 .styled-icons.icon-dark a:hover {
-  color: #5e5e5e;
+  color: #271DED;
 }
 .styled-icons.icon-dark.icon-bordered a {
   background-color: transparent;

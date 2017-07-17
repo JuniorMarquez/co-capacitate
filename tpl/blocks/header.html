@@ -48,7 +48,7 @@
             <div ng-include="'tpl/modalMision.html'"></div>
           </script>
           
-      <div class="navbar-header {{app.settings.navbarHeaderColor}}" >
+      <div class="navbar-header {{app.settings.navbarHeaderColor}}" ng-controller="FlotChartDemoCtrl" ng-hide="visor()">
      <!--    <button class="pull-right visible-xs dk" ui-toggle-class="show" data-target=".navbar-collapse">
           <i class="glyphicon glyphicon-cog"></i>
         </button> -->
@@ -59,7 +59,7 @@
 <!--         <a href="http://cotachira.com.ve" target="_blank" class="navbar-brand text-lt" style="text-center;width:1024px;align:center;"> -->
 
         </a>
-        <div align="center" class="cabecera">     <img src="img/logo.png" alt="."> </div>
+        <div align="center" class="cabecera" >     <img src="img/logo.png" > </div>
         <!-- / brand -->
       </div>
       <!-- / navbar header -->

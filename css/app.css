@@ -509,7 +509,11 @@ background-color: #1C2B36;
 .panel-default {
   border-color: #dee5e7;
 }
-
+.panel-default2 {
+  border-color: #dee5e7;
+  padding:10px;
+  box-shadow: 5px 20px 15px rgba(10, 10, 10, 0.24);
+}
 .panel-default > .panel-heading,
 .panel-default > .panel-footer {
   border-color: #edf1f2;
@@ -1541,6 +1545,7 @@ html {
     margin-left: 0;
     overflow: auto;
     opacity: 1;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.22)
   }
 }
 
@@ -1845,6 +1850,7 @@ fieldset[disabled] .btn-default.active {
   color: #ffffff !important;
   background-color: #271DED;
   border-color: #271DED;
+  border-radius:30px;
 }
 
 .btn-primary2:hover{
@@ -3022,9 +3028,14 @@ fieldset[disabled] .i-checks input + i:before {
   filter: none;
 }
 
+
 .bg-light {
   color: #6C65F0;
   background-color: #f3f5f6;
+}
+.bg-light2 {
+  color: #6C65F0;
+  background-color: #312E6D;
 }
 
 .bg-light.lt,
@@ -4281,7 +4292,10 @@ a.text-#000000:hover {
 .wrapper {
   padding: 15px;
 }
-
+.wrapper-md3 {
+  padding: 5%;
+   background-color: #DADADA;
+}
 .wrapper-md {
   padding: 20px;
 }
@@ -4755,6 +4769,10 @@ a.text-#000000:hover {
   margin-bottom: 10px;
 }
 
+.m-b-sm2 {
+  /*margin-bottom: 10px;*/
+  box-shadow: 5px 20px 15px rgba(10, 10, 10, 0.24);
+}
 .m-b {
   margin-bottom: 15px;
 }

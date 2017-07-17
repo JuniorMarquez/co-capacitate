@@ -25,8 +25,10 @@
           <slide ng-repeat="slide in slides" active="slide.active">
             <img ng-src="{{slide.image}}" class="img-full">
             <div class="carousel-caption">
-              <h4>Slide {{$index}}</h4>
-              <p>{{slide.text}}</p>
+              <!-- <h4>Slide {{$index}}</h4> -->
+                 <h1><span class="text-white textSlide"> Aspiras  </span></h1></p>
+              <p>
+              <h2><span class="text-white textSlide"> hola </span></h2></p>
             </div>
           </slide>
         </carousel>
@@ -57,6 +59,10 @@
   <div>
   <span class="text-white">
   <br/>
+ <br/>
+
+ <br/>
+
     <h1 class="text-white"> Asume el Reto de estar entre Los Mejores</h1>
 <br/>
 </span>
@@ -66,12 +72,13 @@
 </div>
 
 
-<div class="wrapper-md">
+<div class="wrapper-md3">
   <div class="row">
     <div class="col-lg-12">
+  
       <div class="row">
           <div class="col-sm-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default2">
 
             <div class="text-center wrapper m-b-sm">              
             <img class="img-fullwidth" src="images/services/bg-3.jpg" alt="">
@@ -80,15 +87,20 @@
               <li class="list-group-item">
                <h4 class=" letter-space-1 mt-10">Actividades para impulsar su carrera o negocio</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis unde nesciunt?</p>
-                <button class="btn btn-primary2">Leer más</button>
-                <a href="#" class="btn btn-sm btn-theme-colored">Leer más</a>
+                <div class="row">
+                <div class="col-sm-4 pull-right" >
+                  <button class="btn btn-primary2 ">Leer más</button>
+                </div>
+                </div>
+                
+                <!-- <a href="#" class="btn btn-sm btn-theme-colored">Leer más</a> -->
               </li>          
             </ul>
           </div>
         </div>
 
         <div class="col-sm-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default2">
 
             <div class="text-center wrapper m-b-sm">              
             <img class="img-fullwidth" src="images/services/bg-2.jpg" alt="">
@@ -98,7 +110,11 @@
                 
              <h4 class="letter-space-1 mt-10">¿Deseas hacer un diplomado?</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis unde nesciunt?</p>
-                <a href="#" class="btn btn-sm btn-theme-colored">Leer más</a>
+                 <div class="row">
+                <div class="col-sm-4 pull-right" >
+                  <button class="btn btn-primary2 ">Leer más</button>
+                </div>
+                </div>
               </li>
          
             
@@ -107,7 +123,7 @@
         </div>
        
          <div class="col-sm-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default2">
 
             <div class="text-center wrapper m-b-sm">              
             <img class="img-fullwidth" src="images/services/bg-1.jpg" alt="">
@@ -117,7 +133,11 @@
                 
                <h4 class=" letter-space-1 mt-10">In-Company</h4>
                 <p>Programas de Capacitación de acuerdo a sus necesidades</p>
-                <a href="#" class="btn btn-sm btn-theme-colored">Leer más</a>
+                 <div class="row">
+                <div class="col-sm-4 pull-right" >
+                  <button class="btn btn-primary2 ">Leer más</button>
+                </div>
+                </div>
               </li>
          
             
@@ -134,10 +154,26 @@
   
 
 </div>
+  <div class="wrapper-md2">
+          <div>
+          <!-- <span class="text-white"> --> 
+          <br/>
+         <br/>
+
+         <br/>
+
+            <h1 class="text-white"> Lo más reciente de nuestros cursos...</h1>
+        <br/>
+        <!-- </span> -->
+        <br/>
+          </div>
+
+        </div>
 <div ng-controller="FlotChartDemoCtrl">
     <section id="gallery"  >
      <div class="container pt-50 pb-30">
         <div class="section-content">
+      
         <div class="row">
           <div class="col-md-12">
             
@@ -158,8 +194,10 @@
                     </div> 
                   </div>
                   <div class="gallery-bottom-part text-center">
+                    
+                    <!-- <h4 class="sub-title m-0 " style="color:#120D6D;">{{curso.titulo}}</h4> -->
                     <h4 class="title text-uppercase text-white font-raleway font-weight-500 m-0">{{curso.titulo}}</h4>
-                    <h5 class="sub-title m-0">{{curso.subtitulo}}</h5>
+                    <h5 class="title text-uppercase text-white font-raleway font-weight-500 m-0">{{curso.subtitulo}}</h5>
                   </div>
                 </div>
               </div>
